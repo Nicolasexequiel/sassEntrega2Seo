@@ -1,0 +1,9 @@
+buenas! 
+los cambios que hice de seo fue la etiqueta meta keywords en todas las paginas de mi proyecto, poniendole
+las palabras clave que me parecian mas importantes dentro de cada pagina.
+luego agregue la etiqueta meta description en todas las paginas, poneindole las frases o oraciones que iban 
+de acuerdo al contenido de cada pagina.
+luego les cambie el tittle para que se vea mejor .
+
+P/D: estuve 4 horas viendo porque no me agarraba los mixin hasta que funco.
+ muchas gracias ! saludos ! 

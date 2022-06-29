@@ -1,0 +1,44 @@
+/*academia*/ 
+/* footer */
+
+.footerAcademia {
+    grid-area: footerAcademia;
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-evenly;
+    margin: 75px 0px 0px 0px;
+}
+
+.grupo2Academia {
+    margin: 59px 0px 0px 0px;
+}
+
+
+.logoTitulo {
+    max-width: 200px;
+}
+
+.icono-face {
+    height: 25px;
+    width: 25px;
+}
+
+.icono-insta {
+    height: 25px;
+    width: 45px;
+}
+/*index*/ 
+.footerIndex {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-around
+}
+/*contacto*/ 
+.footerContacto{
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 100%;
+}

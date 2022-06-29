@@ -1,0 +1,197 @@
+* {
+  padding: 0%;
+  margin: 0%; }
+
+.mainAcademia h1, .tituloHistoria, .tituloContacto, .mainMestres {
+  max-width: 3000px;
+  color: black;
+  font-size: 66px;
+  font-family: 'Macondo', cursive;
+  text-align: center; }
+
+.header {
+  width: 100%;
+  background-color: black;
+  display: inline-block;
+  margin: 0px 210px 10px 0px;
+  clear: both;
+  content: '';
+  display: table; }
+  .header .ul {
+    display: flex;
+    list-style: none;
+    color: black;
+    margin-right: 80px; }
+  .header .nav {
+    float: right; }
+  .header li {
+    border-radius: 3px;
+    margin: 100px 5px; }
+  .header a {
+    padding: 7px 13px; }
+
+/*nav*/
+.navAcademia {
+  grid-area: navAcademia;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .navAcademia ul {
+    margin-top: 30px;
+    width: 100%;
+    display: flex; }
+  .navAcademia li {
+    list-style: none;
+    padding: 30px;
+    height: 0px;
+    text-align: center; }
+    .navAcademia li:hover {
+      background-color: #122f30; }
+
+nav a {
+  color: white; }
+
+.navAcademia li:hover {
+  background-color: #122f30; }
+
+.navIndex {
+  grid-area: navIndex; }
+
+/* main  */
+.mainAcademia {
+  grid-area: mainAcademia;
+  text-align: center; }
+  .mainAcademia p {
+    margin: 0px 88px 0px 88px; }
+  .mainAcademia img {
+    width: 100%;
+    margin: 36px 0px 0px 0px; }
+
+.buttonAcademia {
+  width: 300px;
+  height: 100px;
+  border: none;
+  border-radius: 4px;
+  transition: ease-out 0.3s;
+  font-size: 2rem;
+  outline: none;
+  border: 3px solid black;
+  margin: 80px 0px 44px 0px; }
+  .buttonAcademia:hover {
+    color: rgba(206, 175, 175, 0.822);
+    cursor: pointer; }
+
+/*index*/
+.mainIndex h1 {
+  max-width: 3000px;
+  font-size: 66px;
+  font-family: 'Macondo', cursive;
+  text-align: center;
+  color: red;
+  background-color: white;
+  color: black; }
+
+.imgIndex2 {
+  width: 100%;
+  height: 100%; }
+
+.h3Index2 {
+  color: black;
+  font-size: 20px;
+  text-align: center; }
+
+.letra-asg {
+  border: solid 1px black; }
+
+/*historia*/
+.tituloHistoria {
+  background-color: white; }
+
+.h1-historia {
+  color: black;
+  background-color: white;
+  margin: -22px 273px 0px 300px; }
+
+.section-historia1 {
+  margin-bottom: 50px; }
+
+.h2-historia {
+  color: black;
+  background-color: white; }
+
+.section-historia2 {
+  margin-bottom: 50px; }
+
+.sectionHistoria3 {
+  color: black; }
+
+.h3-historia {
+  color: red;
+  background-color: white;
+  display: inline-block;
+  max-width: 500px;
+  margin: 0px 0px 0px 54px; }
+
+.imagen-historia img {
+  max-width: 300px;
+  display: inline-block;
+  margin: -183px 4px 0px 775px; }
+
+.h3-historia1 {
+  color: black;
+  background-color: white;
+  max-width: 623px;
+  margin: 11px 76px 0px 671px; }
+
+.imagen-helio {
+  margin: -309px 0px 13px 133px; }
+
+.mainHistoria {
+  background-image: url(../imagenes/ASG-LOGO1350.jpg);
+  height: 1351px; }
+
+/*contacto*/
+.main {
+  grid-area: main; }
+
+/*academia*/
+/* footer */
+.footerAcademia {
+  grid-area: footerAcademia;
+  display: flex;
+  background-color: black;
+  color: white;
+  justify-content: space-evenly;
+  margin: 75px 0px 0px 0px; }
+
+.grupo2Academia {
+  margin: 59px 0px 0px 0px; }
+
+.logoTitulo {
+  max-width: 200px; }
+
+.icono-face {
+  height: 25px;
+  width: 25px; }
+
+.icono-insta {
+  height: 25px;
+  width: 45px; }
+
+/*index*/
+.footerIndex {
+  display: flex;
+  background-color: black;
+  color: white;
+  justify-content: space-around; }
+
+/*contacto*/
+.footerContacto {
+  display: flex;
+  background-color: black;
+  color: white;
+  width: 100%; }
+
+/*academia  */
+/* nav */

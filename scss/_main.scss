@@ -1,0 +1,134 @@
+/* main  */
+
+.mainAcademia {
+    grid-area: mainAcademia;
+    text-align: center;
+    p {
+        margin: 0px 88px 0px 88px;
+    }
+    img {
+        width: 100%;
+        margin: 36px 0px 0px 0px;
+    }
+    h1{
+        @extend %estilotitulo
+    }
+}
+
+
+.buttonAcademia {
+    width: 300px;
+    height: 100px;
+    border: none;
+    border-radius: 4px;
+    transition: ease-out 0.3s;
+    font-size: 2rem;
+    outline: none;
+    border: 3px solid black;
+    margin: 80px 0px 44px 0px;
+    &:hover{
+        color: rgba(206, 175, 175, 0.822);
+    cursor: pointer;
+    }
+}
+/*index*/
+.mainIndex h1 {
+    max-width: 3000px;
+    font-size: 66px;
+    font-family: 'Macondo', cursive;
+    text-align: center;
+    @include colorb($B,$R);
+    color: black;
+
+}
+
+.imgIndex2 {
+
+    width: 100%;
+    height: 100%;
+}
+
+.h3Index2 {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+.letra-asg {
+    border: solid 1px black;
+}
+
+/*historia*/
+.tituloHistoria {
+ @extend %estilotitulo;
+ background-color: white;
+ 
+}
+
+.h1-historia {
+    color: black;
+    background-color: white;
+    margin: -22px 273px 0px 300px;
+
+}
+
+.section-historia1 {
+    margin-bottom: 50px;
+}
+
+.h2-historia {
+    color: black;
+    background-color: white;
+}
+
+.section-historia2 {
+    margin-bottom: 50px
+}
+
+.sectionHistoria3 {
+    color: black;
+}
+
+.h3-historia {
+    @include hola();
+    background-color: white;
+    display: inline-block;
+    max-width: 500px;
+    margin: 0px 0px 0px 54px;
+}
+
+.imagen-historia img {
+    max-width: 300px;
+    display: inline-block;
+    margin: -183px 4px 0px 775px;
+}
+
+.h3-historia1 {
+color: black;
+    background-color: white;
+    max-width: 623px;
+    margin: 11px 76px 0px 671px;
+}
+
+.imagen-helio {
+    margin: -309px 0px 13px 133px;
+}
+
+.mainHistoria {
+    background-image: url(../imagenes/ASG-LOGO1350.jpg   );
+    height: 1351px;
+}
+
+/*contacto*/ 
+.main {
+    grid-area: main;
+}
+
+.tituloContacto {
+    @extend %estilotitulo;
+}
+
+//mestres
+.mainMestres{
+    @extend %estilotitulo;
+}

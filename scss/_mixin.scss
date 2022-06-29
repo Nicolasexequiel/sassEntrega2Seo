@@ -1,0 +1,13 @@
+@mixin hola {
+    color: red;
+
+}
+
+@mixin hola2($cparrafo, $fondob){
+    color: $cparrafo;
+    background-color: $fondob;
+}
+@mixin colorb($B,$R){
+    color: $R;
+    background-color: $B;
+}
